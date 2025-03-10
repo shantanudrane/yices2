@@ -99,6 +99,7 @@ sat
 Running Yices on the above problem gives
 
 ```
+> yices-smt2 nra.smt2
 sat
 (model
   (define-fun x () Real 0.894427)
